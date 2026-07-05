@@ -1,0 +1,60 @@
+{
+    "_readme": "Golden dataset for FilingLens numeric-accuracy eval. Each record is a manually-verified (concept, value, source) triple. expected_value is in raw units (e.g. USD, not millions) to match what fetch_xbrl.py stores. source_snippet is the exact text confirming the value, trimmed for readability -- kept short per copyright guidance, not a full reproduction of the filing. Add new records here every time you reconcile a fact by hand; this file is what eval_numeric_accuracy.py will run against once the LLM/agent layer exists.",
+  
+    "records": [
+      {
+        "id": "AAPL-2026Q2-net_income",
+        "ticker": "AAPL",
+        "cik": "0000320193",
+        "concept": "net_income",
+        "tag_used": "NetIncomeLoss",
+        "expected_value": 29578000000,
+        "unit": "USD",
+        "period_end": "2026-03-28",
+        "fiscal_year": 2026,
+        "fiscal_period": "Q2",
+        "form": "10-Q",
+        "accession_number": "0000320193-26-000013",
+        "source_snippet": "Net income $ 29,578 $ 24,780 $ 71,675 $ 61,110",
+        "verified_by": "manual_reconciliation",
+        "verified_date": "2026-07-01",
+        "notes": "Value in millions in filing text (29,578); matches XBRL value in raw USD. Confirmed consistent across income statement, comprehensive income, and cash flow statement sections."
+      },
+      {
+        "id": "AAPL-2026Q2-revenue",
+        "ticker": "AAPL",
+        "cik": "0000320193",
+        "concept": "revenue",
+        "tag_used": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "expected_value": 111184000000,
+        "unit": "USD",
+        "period_end": "2026-03-28",
+        "fiscal_year": 2026,
+        "fiscal_period": "Q2",
+        "form": "10-Q",
+        "accession_number": "0000320193-26-000013",
+        "source_snippet": "Total net sales 111,184 95,359 254,940 219,659",
+        "verified_by": "manual_reconciliation",
+        "verified_date": "2026-07-01",
+        "notes": "Confirmed across income statement, segment breakdown table, and deferred revenue note. Apple uses 'net sales' in filing text, not 'revenue'."
+      },
+      {
+        "id": "AAPL-2026Q2-research_and_development_expense",
+        "ticker": "AAPL",
+        "cik": "0000320193",
+        "concept": "research_and_development_expense",
+        "tag_used": "ResearchAndDevelopmentExpense",
+        "expected_value": 11419000000,
+        "unit": "USD",
+        "period_end": "2026-03-28",
+        "fiscal_year": 2026,
+        "fiscal_period": "Q2",
+        "form": "10-Q",
+        "accession_number": "0000320193-26-000013",
+        "source_snippet": "Research and development 11,419 8,550 22,306 16,818",
+        "verified_by": "manual_reconciliation",
+        "verified_date": "2026-07-01",
+        "notes": "Confirmed in income statement, segment table, and MD&A discussion table. MD&A narrative attributes the YoY increase to infrastructure and headcount costs."
+      }
+    ]
+  }

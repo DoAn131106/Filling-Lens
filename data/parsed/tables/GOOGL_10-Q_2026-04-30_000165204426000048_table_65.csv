@@ -1,0 +1,26 @@
+0,1,2,3,4,5,6,7,8,9,10,11
+,,,,,,,,,,,
+,,,Three Months Ended,Three Months Ended,Three Months Ended,Three Months Ended,Three Months Ended,Three Months Ended,Three Months Ended,Three Months Ended,Three Months Ended
+,,,"March 31,","March 31,","March 31,","March 31,","March 31,","March 31,","March 31,","March 31,","March 31,"
+,,,2025,2025,2025,,,,2026,2026,2026
+Revenues:,Revenues:,Revenues:,,,,,,,,,
+Google Services,Google Services,Google Services,$,77264,,,,,$,89637,
+Google Cloud,Google Cloud,Google Cloud,12260,12260,,,,,20028,20028,
+Other Bets,Other Bets,Other Bets,450,450,,,,,411,411,
+Hedging gains (losses),Hedging gains (losses),Hedging gains (losses),260,260,,,,,(180),(180),
+Total revenues,Total revenues,Total revenues,$,90234,,,,,$,109896,
+Operating income (loss):,Operating income (loss):,Operating income (loss):,,,,,,,,,
+Google Services,Google Services,Google Services,$,32682,,,,,$,40589,
+Google Cloud,Google Cloud,Google Cloud,2177,2177,,,,,6598,6598,
+Other Bets,Other Bets,Other Bets,"(1,226)","(1,226)",,,,,"(2,100)","(2,100)",
+Alphabet-level activities,Alphabet-level activities,Alphabet-level activities,"(3,027)","(3,027)",,,,,"(5,391)","(5,391)",
+Total income from operations,Total income from operations,Total income from operations,$,30606,,,,,$,39696,
+Supplemental information about segment expenses:,Supplemental information about segment expenses:,Supplemental information about segment expenses:,,,,,,,,,
+Google Services:,Google Services:,Google Services:,,,,,,,,,
+Employee compensation expenses,Employee compensation expenses,Employee compensation expenses,$,11337,,,,,$,12206,
+Other costs and expenses,Other costs and expenses,Other costs and expenses,33245,33245,,,,,36842,36842,
+Total Google Services costs and expenses,Total Google Services costs and expenses,Total Google Services costs and expenses,$,44582,,,,,$,49048,
+Google Cloud:,Google Cloud:,Google Cloud:,,,,,,,,,
+Employee compensation expenses,Employee compensation expenses,Employee compensation expenses,$,5412,,,,,$,6443,
+Other costs and expenses,Other costs and expenses,Other costs and expenses,4671,4671,,,,,6987,6987,
+Total Google Cloud costs and expenses,Total Google Cloud costs and expenses,Total Google Cloud costs and expenses,$,10083,,,,,$,13430,

@@ -1,0 +1,13 @@
+0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,"As of December 31, 2025","As of December 31, 2025","As of December 31, 2025","As of December 31, 2025","As of December 31, 2025","As of December 31, 2025","As of December 31, 2025","As of December 31, 2025","As of December 31, 2025",,,,"As of March 31, 2026","As of March 31, 2026","As of March 31, 2026","As of March 31, 2026","As of March 31, 2026","As of March 31, 2026","As of March 31, 2026","As of March 31, 2026","As of March 31, 2026"
+,,,Assets(1),Assets(1),Assets(1),,,,Liabilities(2),Liabilities(2),Liabilities(2),,,,Assets(1),Assets(1),Assets(1),,,,Liabilities(2),Liabilities(2),Liabilities(2)
+Derivatives designated as hedging instruments:,Derivatives designated as hedging instruments:,Derivatives designated as hedging instruments:,,,,,,,,,,,,,,,,,,,,,
+Foreign exchange derivatives,Foreign exchange derivatives,Foreign exchange derivatives,$,316,,,,,$,197,,,,,$,991,,,,,$,39,
+,,,,,,,,,,,,,,,,,,,,,,,
+Derivatives not designated as hedging instruments:,Derivatives not designated as hedging instruments:,Derivatives not designated as hedging instruments:,,,,,,,,,,,,,,,,,,,,,
+Foreign exchange derivatives,Foreign exchange derivatives,Foreign exchange derivatives,92,92,92,,,,15,15,15,,,,244,244,244,,,,472,472,472
+Credit derivatives,Credit derivatives,Credit derivatives,0,0,0,,,,69,69,69,,,,0,0,0,,,,339,339,339
+Other derivatives,Other derivatives,Other derivatives,324,324,324,,,,98,98,98,,,,375,375,375,,,,40,40,40
+Total derivatives not designated as hedging instruments,Total derivatives not designated as hedging instruments,Total derivatives not designated as hedging instruments,416,416,,,,,182,182,,,,,619,619,,,,,851,851,
+Total,Total,Total,$,732,,,,,$,379,,,,,$,1610,,,,,$,890,
