@@ -1,0 +1,15 @@
+# Secrets -- never commit
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Data (large/generated -- fully regenerable via fetch_data.py / fetch_xbrl.py,
+# no need to commit to the repo)
+data/
+
+# OS
+.DS_Store
